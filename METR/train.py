@@ -37,11 +37,11 @@ parser.add_argument('--decay_epoch', type=int, default = 5,
                     help = 'decay epoch')
 parser.add_argument('--traffic_file', default = 'C:/Users/ajou/Desktop/Data/metr-la.h5',
                     help = 'traffic file')
-parser.add_argument('--SE_file', default = 'C:/Users/ajou/GMAN-main/GMAN-main/METR/data/SE(METR).txt',
+parser.add_argument('--SE_file', default = 'C:/Users/ajou/GMAN/METR/data/SE(METR).txt',
                     help = 'spatial emebdding file')
-parser.add_argument('--model_file', default = 'C:/Users/ajou/GMAN-main/GMAN-main/METR/data/GMAN(METR)',
+parser.add_argument('--model_file', default = 'C:/Users/ajou/GMAN/METR/data/GMAN(METR)',
                     help = 'save the model to disk')
-parser.add_argument('--log_file', default = 'C:/Users/ajou/GMAN-main/GMAN-main/METR/data/log(METR)',
+parser.add_argument('--log_file', default = 'C:/Users/ajou/GMAN/METR/data/log(METR)',
                     help = 'log file')
 args = parser.parse_args()
 

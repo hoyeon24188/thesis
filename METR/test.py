@@ -18,9 +18,9 @@ parser.add_argument('--val_ratio', type=float, default=0.1, help='validation set
 parser.add_argument('--test_ratio', type=float, default=0.2, help='testing set [default : 0.2]')
 parser.add_argument('--batch_size', type=int, default=32, help='batch size')
 parser.add_argument('--traffic_file', default='C:/Users/ajou/Desktop/Data/metr-la.h5', help='traffic file')  # default를 절대 경로로 수정해주세요
-parser.add_argument('--SE_file', default='C:/Users/ajou/GMAN-main/GMAN-main/METR/data/SE(METR).txt', help='spatial emebdding file')  # default를 절대 경로로 수정해주세요
-parser.add_argument('--model_file', default='C:/Users/ajou/GMAN-main/GMAN-main/METR/data/Adj(METR).txt', help='pre-trained model')  # 존재하지 않습니다 원래 값: data/GMAN(METR)
-parser.add_argument('--log_file', default='C:/Users/ajou/GMAN-main/GMAN-main/METR/data/log(METR)', help='log file')  # METR/data 아래에 logfile이 자동으로 생성됩니다.
+parser.add_argument('--SE_file', default='C:/Users/ajou/GMAN/METR/data/SE(METR).txt', help='spatial emebdding file')  # default를 절대 경로로 수정해주세요
+parser.add_argument('--model_file', default='C:/Users/ajou/GMAN/METR/data/Adj(METR).txt', help='pre-trained model')  # 존재하지 않습니다 원래 값: data/GMAN(METR)
+parser.add_argument('--log_file', default='C:/Users/ajou/GMAN/METR/data/log(METR)', help='log file')  # METR/data 아래에 logfile이 자동으로 생성됩니다.
 args = parser.parse_args()
 
 start = time.time()

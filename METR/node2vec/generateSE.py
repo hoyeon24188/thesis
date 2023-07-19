@@ -11,8 +11,8 @@ walk_length = 80
 dimensions = 64
 window_size = 10
 iter = 1000
-Adj_file = 'C:/Users/ajou/GMAN-main/GMAN-main/METR/data/Adj(METR).txt'
-SE_file = 'C:/Users/ajou/GMAN-main/GMAN-main/METR/data/SE.txt'
+Adj_file = 'C:/Users/ajou/GMAN/METR/data/Adj(METR).txt'
+SE_file = 'C:/Users/ajou/GMAN/METR/data/SE.txt'
 
 def read_graph(edgelist):
     G = nx.read_edgelist(
